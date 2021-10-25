@@ -17,5 +17,5 @@
 pwd
 ls ../
 ls $GITHUB_WORKSPACE/
-cat mt7621.mk_zte_e8820s >> $GITHUB_WORKSPACE/openwrt/target/linux/ramips/image/mt7621.mk
-cp mt7621_zte_e8820s.dts  $GITHUB_WORKSPACE/openwrt/target/linux/ramips/dts/mt7621_zte_e8820s.dts
+cat ../mt7621.mk_zte_e8820s >> target/linux/ramips/image/mt7621.mk
+cp ../mt7621_zte_e8820s.dts  target/linux/ramips/dts/mt7621_zte_e8820s.dts
