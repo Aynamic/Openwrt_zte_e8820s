@@ -16,5 +16,6 @@
 # Add zte_e8820s part in mt7621.mk and e8820s dts file
 pwd
 ls ../
+ls $GITHUB_WORKSPACE/
 cat mt7621.mk_zte_e8820s >> $GITHUB_WORKSPACE/openwrt/target/linux/ramips/image/mt7621.mk
 cp mt7621_zte_e8820s.dts  $GITHUB_WORKSPACE/openwrt/target/linux/ramips/dts/mt7621_zte_e8820s.dts
