@@ -1,3 +1,4 @@
+
 define Device/zte_e8820s
   $(Device/dsa-migration)
   BLOCKSIZE := 128k
