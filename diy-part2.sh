@@ -14,8 +14,9 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
 # Add zte_e8820s part in mt7621.mk and e8820s dts file
+echo "pwd"
 pwd
+echo "ls ../"
 ls ../
-ls $GITHUB_WORKSPACE/
 cat ../mt7621.mk_zte_e8820s >> target/linux/ramips/image/mt7621.mk
 cp ../mt7621_zte_e8820s.dts  target/linux/ramips/dts/mt7621_zte_e8820s.dts
