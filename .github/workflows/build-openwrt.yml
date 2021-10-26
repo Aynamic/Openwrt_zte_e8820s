@@ -19,6 +19,7 @@ on:
 #        required: false
         required: true
 #        default: 'false'
+        default: 'true'
 
 env:
 #  REPO_URL: https://github.com/coolsnowwolf/lede
