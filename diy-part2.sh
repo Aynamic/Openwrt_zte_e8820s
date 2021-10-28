@@ -17,3 +17,4 @@
 cd ../
 cat mt7621.mk_zte_e8820s >> openwrt/target/linux/ramips/image/mt7621.mk
 cp mt7621_zte_e8820s.dts  openwrt/target/linux/ramips/dts/mt7621_zte_e8820s.dts
+cp 01_leds_zte_e8820s openwrt/target/linux/ramips/mt7621/base-files/etc/board.d/01_leds
